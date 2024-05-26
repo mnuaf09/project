@@ -1,0 +1,75 @@
+
+* {
+    border-radius: 12px;
+  }
+  
+  body {
+    background-image: linear-gradient(#16384c, rgb(47, 50, 95), #2f495f);
+    min-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  section {
+    height: 350px;
+    width: 400px;
+    background-color: #ffffff;
+  
+    margin: 200px auto 0;
+    position: relative;
+  
+    
+    transition: all 0.7s;
+  }
+  
+  section:hover {
+    height: 400px;
+  }
+  
+  img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50px;
+    top: -30px;
+  
+    
+    transition: all 0.5s;
+  }
+  
+  section:hover img {
+    top: -130px;
+    border-radius: 50%;
+    transform: rotate(720deg);
+  }
+  
+  .container {
+    position: absolute;
+    bottom: 1;
+    padding: 10px;
+  
+    text-align: center;
+  
+    opacity: 1;
+  
+    
+    transition: all 0.4s;
+  
+    font-family: sans-serif;
+  }
+  
+  section:hover .container {
+    opacity: 1;
+  }
+  
+
+
+
+
+
+
+
+
+
+
